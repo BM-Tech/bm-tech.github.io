@@ -9,10 +9,20 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+#whoarewe{
+    opacity: 1;
+    text-align: center;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
 .top-hero {
     background: linear-gradient(-45deg, #f1997eab, #e780a7b0, #63cbf19c, #23d5abaf);
     background-size: 200%;
-	animation: gradient 50s ease infinite;
+	animation: gradient 60s ease infinite;
     padding-top: 100px;
 }
 
