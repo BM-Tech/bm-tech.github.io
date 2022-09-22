@@ -9,12 +9,11 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.navbar-content {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    height: 85px;
+.top-hero {
+    background: linear-gradient(-45deg, #f1997eab, #e780a7b0, #63cbf19c, #23d5abaf);
     background-size: 200%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 50s ease infinite;
+    padding-top: 100px;
 }
 
 @keyframes gradient {
