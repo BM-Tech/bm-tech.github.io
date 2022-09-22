@@ -1,0 +1,83 @@
+html, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    height: 800px;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.top-hero {
+    background: linear-gradient(-45deg, #f1997eab, #e780a7b0, #63cbf19c, #23d5abaf);
+    background-size: 200%;
+	animation: gradient 50s ease infinite;
+    padding-top: 100px;
+}
+
+@keyframes gradient {
+    0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.navbar-content a:hover {
+    color: rgb(221, 221, 221);
+}
+
+.navbar-content p {
+    font-family: Century Gothic;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.navbar-content a {
+    position: relative;
+    bottom: 50px;
+    font-size: 22px;
+    margin-left: 50px;
+}
+
+.nav-links, .logo {
+    text-decoration: none;
+    color: rgba(250, 250, 250, 0.842);
+}
+
+#first-link {
+    margin-left: 550px;
+}
+
+.jumbotron {
+    background-image: url("Technology Background.jpg");
+    background-size: cover;
+    height: 250px;
+}
+
+.jumbotron p {
+    margin: 40px;
+    color: white;
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+.jumbotron h1 {
+    position: relative;
+    top: 35px;
+    text-align: center;
+    color: white;
+}
+
+.space-margin {
+    margin-left: 50px;
+}
